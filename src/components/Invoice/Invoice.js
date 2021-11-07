@@ -124,7 +124,7 @@ const Invoice = ({ invoiceData, id }) => {
         </ol>
       </div>
       {/* Notes Section */}
-      <div className={styles.notes} id="note-section">
+      <div className={styles.notes}>
         <h2>Notes: </h2>
         <ol>
           <li>All payments should be paid before the due date.</li>
@@ -135,13 +135,13 @@ const Invoice = ({ invoiceData, id }) => {
           <li>
             For any other queries, please contact us at: contact@invoicer.com
           </li>
-          <li>
+          <li id="ignore-print1">
             <b>
               To send the PDF via mail, please click on print button and then
               save as PDF.
             </b>
           </li>
-          <li>
+          <li id="ignore-print2">
             <b>
               After saving as PDF, click on send button, then enter the
               recipient's email address, then attach the saved file and send it.

@@ -42,7 +42,8 @@ code {
     background-color: #fff;
   }
   #navbar,
-  #note-section,
+  #ignore-print1,
+  #ignore-print2,
   #button-section,
   #delete-btn {
     display: none;
