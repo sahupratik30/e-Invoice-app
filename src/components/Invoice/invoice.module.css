@@ -101,20 +101,24 @@ table thead td:nth-child(2) {
   margin: 3rem 0;
   margin-right: 4.5rem;
 }
-.notes {
+.notes,
+.account {
   margin-top: 5rem;
 }
-.notes h2 {
+.notes h2,
+.account h2 {
   font-size: 1.6rem;
 }
-.notes ol {
+.notes ol,
+.account ol {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
   margin-top: 0.8rem;
   margin-left: 1rem;
 }
-.notes ol li {
+.notes ol li,
+.account ol li {
   font-size: 1.2rem;
 }
 .delete {
@@ -144,10 +148,12 @@ table thead td:nth-child(2) {
     font-size: 1.2rem;
     margin-right: 0;
   }
-  .notes h2 {
+  .notes h2,
+  .account h2 {
     font-size: 1.2rem;
   }
-  .notes ol li {
+  .notes ol li,
+  .account ol li {
     font-size: 0.85rem;
   }
 }

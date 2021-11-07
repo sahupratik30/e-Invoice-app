@@ -7,11 +7,11 @@ const Invoice = ({ invoiceData, id }) => {
     invoiceCtx.deleteInvoice(id);
   };
   return (
-    <main className={styles.invoice}>
+    <main className={styles.invoice} id="invoice">
       {/* Invoice Header */}
       <div className={styles.invoice__header}>
         <h1>INVOICE</h1>
-        <div className={styles.invoice__buttons}>
+        <div className={styles.invoice__buttons} id="button-section">
           <button
             type="button"
             onClick={() => window.print()}
@@ -109,7 +109,7 @@ const Invoice = ({ invoiceData, id }) => {
           invoiceData.service_Charges}
       </p>
       {/* Company Account Details */}
-      <div className={styles.notes}>
+      <div className={styles.account}>
         <h2>Account Details: </h2>
         <ol>
           <li>
@@ -124,7 +124,7 @@ const Invoice = ({ invoiceData, id }) => {
         </ol>
       </div>
       {/* Notes Section */}
-      <div className={styles.notes}>
+      <div className={styles.notes} id="note-section">
         <h2>Notes: </h2>
         <ol>
           <li>All payments should be paid before the due date.</li>
@@ -149,7 +149,12 @@ const Invoice = ({ invoiceData, id }) => {
           </li>
         </ol>
       </div>
-      <button type="button" className={styles.delete} onClick={deleteHandler}>
+      <button
+        type="button"
+        className={styles.delete}
+        onClick={deleteHandler}
+        id="delete-btn"
+      >
         Delete Invoice
       </button>
     </main>

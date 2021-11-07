@@ -39,9 +39,15 @@ code {
 @media print {
   body {
     -webkit-print-color-adjust: exact;
+    background-color: #fff;
   }
-  nav,
-  title {
-    visibility: hidden;
+  #navbar,
+  #note-section,
+  #button-section,
+  #delete-btn {
+    display: none;
+  }
+  #invoice {
+    box-shadow: none;
   }
 }

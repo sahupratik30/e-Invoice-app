@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   const history = useHistory();
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.navbar} id="navbar">
       <h1 onClick={() => history.push("/")}>e-INVOICE</h1>
       <div className={styles.navbar__buttons}>
         <Link to="/new-invoice" className={styles.navbar__button}>
