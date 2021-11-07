@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+:root {
+  --main-color: rgb(75, 5, 136);
+  --white-color: rgb(255, 255, 255);
+  --danger-color: rgb(255, 75, 75);
+  --main-background-color: rgba(75, 5, 136, 0.1);
+  --success-color: rgb(0, 209, 0);
+  --card-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--main-background-color);
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+.Toastify__toast-body {
+  font-size: 1.8rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@media screen and (max-width: 540px) {
+  .Toastify__toast-body {
+    font-size: 1.4rem;
+  }
+}
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+  nav,
+  title {
+    visibility: hidden;
+  }
+}

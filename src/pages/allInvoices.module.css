@@ -1,0 +1,17 @@
+.fallback {
+  width: 100%;
+  min-height: calc(100vh - 8.5vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fallback h1 {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  text-align: center;
+}
+@media screen and (max-width: 540px) {
+  .fallback h1 {
+    font-size: 2rem;
+  }
+}

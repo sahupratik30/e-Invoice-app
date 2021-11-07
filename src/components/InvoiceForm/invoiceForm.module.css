@@ -1,0 +1,145 @@
+.invoice__form {
+  width: 70rem;
+  max-width: 90%;
+  padding: 3rem;
+  margin: 3rem auto;
+  background-color: var(--white-color);
+  box-shadow: var(--card-shadow);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+.invoice__form h1 {
+  color: var(--main-color);
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.invoice__form form {
+  width: 100%;
+  text-align: center;
+}
+.invoice__form form input {
+  font-weight: 500;
+  color: var(--main-color);
+  margin-bottom: 2rem;
+  width: 48%;
+  max-width: 100%;
+  height: 3.5rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  padding-left: 1.2rem;
+  font-size: 1.4rem;
+  border: 2px solid #ccc;
+}
+.invoice__form form input:focus,
+.invoice__form form textarea:focus {
+  border-color: var(--main-color);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  outline: none;
+}
+.invoice__form form div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.invoice__form form textarea {
+  padding: 1.2rem;
+  border: 2px solid #ccc;
+  width: 97%;
+  max-width: 100%;
+  height: 10rem;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.invoice__form form .invoice__div {
+  position: relative;
+}
+.invoice__form form label {
+  position: absolute;
+  top: -1.6rem;
+  margin-left: 6.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.invoice__form form input.ifsc,
+.invoice__form form input.service {
+  width: 97%;
+}
+.submit__button {
+  padding: 0.8rem 3rem;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+  border: 2px solid var(--main-color);
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.submit__button:hover {
+  color: var(--main-color);
+  background-color: var(--white-color);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.error {
+  color: var(--danger-color);
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 540px) {
+  .invoice__form {
+    padding: 2rem;
+  }
+  .invoice__form h1 {
+    font-size: 1.6rem;
+  }
+  .invoice__form form input,
+  .invoice__form form textarea {
+    font-size: 1.25rem;
+    padding-left: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 1rem;
+    text-overflow: ellipsis;
+  }
+  .invoice__form form label {
+    font-size: 1rem;
+    margin-left: 5.2rem;
+  }
+  .submit__button {
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+  }
+  .error {
+    font-size: 1.2rem;
+  }
+}

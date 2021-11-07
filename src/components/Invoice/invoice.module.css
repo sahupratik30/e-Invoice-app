@@ -1,0 +1,153 @@
+.invoice {
+  width: 80rem;
+  padding: 2.5rem;
+  max-width: 90%;
+  background-color: var(--white-color);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  margin: 3rem auto;
+  box-shadow: var(--card-shadow);
+}
+.invoice h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.invoice__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.invoice__header .invoice__buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+.invoice__header .invoice__buttons .btn,
+.delete {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 1.2rem;
+  font-size: 1.4rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  color: var(--white-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+.invoice__header .invoice__buttons .btn:hover,
+.delete:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.invoice__header .invoice__buttons .btn__print {
+  background-color: var(--danger-color);
+}
+.invoice__header .invoice__buttons .btn__send {
+  background-color: var(--success-color);
+}
+.details {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+.details h2 {
+  font-size: 2rem;
+}
+.details p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.details span {
+  font-weight: 600;
+}
+.table__div {
+  overflow-x: auto;
+  border-radius: 1.2rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead {
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: var(--main-background-color);
+}
+td {
+  padding: 1.2rem;
+  text-align: center;
+}
+tbody td {
+  font-size: 1.2rem;
+  background-color: rgb(249, 249, 249);
+}
+table thead td:nth-child(2) {
+  width: 50%;
+}
+.total__amount {
+  font-size: 1.6rem;
+  color: var(--success-color);
+  text-align: right;
+  margin: 3rem 0;
+  margin-right: 4.5rem;
+}
+.notes {
+  margin-top: 5rem;
+}
+.notes h2 {
+  font-size: 1.6rem;
+}
+.notes ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+}
+.notes ol li {
+  font-size: 1.2rem;
+}
+.delete {
+  margin-top: 1.5rem;
+  background-color: var(--danger-color);
+}
+@media screen and (max-width: 540px) {
+  .invoice h1 {
+    font-size: 2.2rem;
+  }
+  .invoice__header .invoice__buttons .btn,
+  .delete {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+  }
+  .details {
+    padding: 0;
+    gap: 2rem;
+  }
+  .details h2 {
+    font-size: 1.4rem;
+  }
+  .details p {
+    font-size: 0.95rem;
+  }
+  .total__amount {
+    font-size: 1.2rem;
+    margin-right: 0;
+  }
+  .notes h2 {
+    font-size: 1.2rem;
+  }
+  .notes ol li {
+    font-size: 0.85rem;
+  }
+}
