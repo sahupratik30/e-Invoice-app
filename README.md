@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+## e-INVOICE | Create invoices for your clients
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application where one can **build invoices** for his/her clients.
 
-## Available Scripts
+- ### Technologies Used:
+  - ReactJS
+  - CSS3
+- ### Other Packages Used:
 
-In the project directory, you can run:
+  - react-toastify(for showing toast messages)
 
-### `npm start`
+- ### Key features:
+  - Create invoices for clients just by filling up a form.
+  - Auto-generation of an invoice template with all the filled-in details.
+  - Print the auto-generated invoice.
+  - Send the invoice via mail(_after saving as PDF_)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- ### Desktop View :-
 
-### `npm test`
+  ![Desktop view 1](https://user-images.githubusercontent.com/80754608/140697131-6595a8da-ba1c-493d-861b-13cb9fe9d34d.png)
+  ![Desktop view 2](https://user-images.githubusercontent.com/80754608/140697134-6ca25d8d-a30d-4139-8712-381cb007287d.png)
+  ![Desktop view 3](https://user-images.githubusercontent.com/80754608/140697138-f38533cb-0b7a-478b-b4d6-19371bf48df0.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ### Mobile View :-
 
-### `npm run build`
+  ![Mobile view 1](https://user-images.githubusercontent.com/80754608/140697141-b0721c66-7b65-4898-9d48-f79ce902ac6e.png)
+  ![Mobile view 2](https://user-images.githubusercontent.com/80754608/140697143-3bca7ab6-5a6e-45f3-bb2b-0558786129c4.png)
+  ![Mobile view 3](https://user-images.githubusercontent.com/80754608/140697145-b5505442-e1ff-4008-8b23-54b2392ea6f6.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ### Print Layout :-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![print](https://user-images.githubusercontent.com/80754608/140697122-7e5dfe32-de27-44b5-bd0c-79148fec41eb.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## View Application
 
-### `npm run eject`
+- Link to deployed app:- `https://e-invoice-7b6d5.web.app/`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [View Live App](https://e-invoice-7b6d5.web.app/)
