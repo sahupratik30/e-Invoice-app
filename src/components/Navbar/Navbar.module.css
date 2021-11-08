@@ -45,7 +45,7 @@
     padding: 0 2rem;
   }
   .navbar h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .navbar__buttons {
     width: 70%;
@@ -59,7 +59,7 @@
 }
 @media screen and (max-width: 330px) {
   .navbar h1 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .navbar__buttons .navbar__button {
     font-size: 0.85rem;
